@@ -13,6 +13,7 @@ This project implements a recommendation system using the Implicit Alternating L
 
 - Docker
 - Python 3.11
+- train.parquet in the same directory (code can be updated to handle different data, but dependencies should be changed from app.py)
 
 ### Usage
 
