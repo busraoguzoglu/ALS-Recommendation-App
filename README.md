@@ -13,3 +13,16 @@ This project implements a recommendation system using the Implicit Alternating L
 
 - Docker
 - Python 3.11
+
+### Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/recommendation-api.git
+cd recommendation-api
+
+2. Build docker image
+
+```bash
+docker build -t recommendation-api .
