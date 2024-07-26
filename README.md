@@ -21,8 +21,22 @@ This project implements a recommendation system using the Implicit Alternating L
 ```bash
 git clone https://github.com/yourusername/recommendation-api.git
 cd recommendation-api
+```
 
 2. Build docker image
 
 ```bash
 docker build -t recommendation-api .
+```
+
+3. Run the container
+
+```bash
+docker run -d -p 80:80 recommendation-api
+```
+
+### Access API Info
+
+http://localhost:80/docs -> to view the Swagger documentation and test the API.
+
+Example user ID for API test: 0001d86ea81e6eef12cebaa1dcbdadc2
