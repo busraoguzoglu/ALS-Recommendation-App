@@ -1,1 +1,15 @@
-# ALS-Recommendation-App
+# Recommendation API
+
+This project implements a recommendation system using the Implicit Alternating Least Squares (ALS) model. The system provides personalized recommendations based on user interactions and serves the recommendations via a FastAPI-based API.
+
+## Features
+
+- Personalized recommendations based on user events
+- API endpoint to receive recommendations
+- Dockerized for easy deployment
+- Swagger documentation for API endpoints
+
+### Prerequisites
+
+- Docker
+- Python 3.11
